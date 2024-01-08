@@ -6,6 +6,7 @@
   font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
+  background-color: black;
 }
 body {
   margin: 0%;
@@ -22,12 +23,16 @@ body {
 .joinChatContainer h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: white;
+  font-family: cursive;
+  font-style: oblique;
+  color: #871876;
 }
 .joinChatContainer input {
   width: 210px;
   height: 40px;
   margin: 7px;
-  border: 2px solid #43a047;
+  border: 2px solid #ba6a99;
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
@@ -41,17 +46,18 @@ body {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
-  background: #43a047;
+  background: #acbcea;
   color: #fff;
   cursor: pointer;
 }
 
 .joinChatContainer button:hover {
-  background: #2e7d32;
+  /* background: #2e7d32; */
+  background: #68ac9a;
 }
 
 .chat-window {
-  width: 400px;
+  width: 600px;
   height: 420px;
   /* width: 100%; */
   /* height: 100%; */
@@ -78,7 +84,8 @@ body {
 .chat-window .chat-body {
   height: calc(450px - (45px + 70px));
   border: 1px solid #263238;
-  background: #fff;
+  /* background: #fff; */
+  background: #d6e6d2;
 
   position: relative;
 }
@@ -103,9 +110,7 @@ body {
   height: auto;
   min-height: 40px;
   max-width: 120px;
-  background-color: #43a047;
-  border-radius: 5px;
-  color: white;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   margin-right: 5px;
@@ -122,6 +127,8 @@ body {
 
 #you .message-content {
   justify-content: flex-start;
+  background-color: #83d286a6;
+  color: #2f2c2c;
 }
 
 #you .message-meta {
@@ -135,12 +142,14 @@ body {
 
 #other .message-content {
   justify-content: flex-end;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  background-color: white;
 }
 
 #other .message-meta {
   justify-content: flex-end;
   margin-right: 5px;
+  color: black;
 }
 
 .message-meta #author {
@@ -183,10 +192,12 @@ body {
   outline: none;
   font-size: 25px;
   color: lightgray;
+  background-color: #23a423;
 }
 
 .chat-window .chat-footer button:hover {
-  color: #43a047;
+  color: white;
+  /* background-color: #68ac9a; */
 }
 .hide {
   opacity: 0 !important;
